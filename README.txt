@@ -1,5 +1,7 @@
 INSTRUCTIONS ON HOW TO RUN GWIZ.
 
+R version 3.6 is required to run GWIZ. The following R packages are also required 'XML', 'usdm', 'jsonlite','pROC','glmnet', 'mlr'.
+
 Go to folder “Data”
 Here there are two example csv files with GWAS data.
 Using the format of those files as a template, load your own data into a csv file in the folder “data”. Take special care to ensure the column names are written exactly as they are in the example csv files. 
