@@ -9,7 +9,8 @@ Go to line 3 and change the working directory to the appropriate location.
 Select all and run the code.
 A table called aucout should appear with your results.
 
-After running the code two folders will also be created in your working directory. “Results data” contains the coefficients of the logistic regression model created, ROC curve plots and the AUROC.
-“Resampled data” contains the simulated population created from your GWAS summary level data.
+After running the code two folders will also be created in your working directory. “Results_data” contains the coefficients of the logistic 
+regression model created, ROC curve plots and the AUROC.
+“Resampled_data” contains the simulated population created from your GWAS summary level data.
 
 Congrats you are now an expert in using GWIZ!
