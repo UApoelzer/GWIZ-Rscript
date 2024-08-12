@@ -1,6 +1,6 @@
 # Start of code
 
-setwd("/Users/wishart/Desktop/GWAS_project_trimmed/")  ### Change this to the appropriate direcetory on your computer!!!
+setwd("/home/r-environment/GWIZ/")  ### Change this to the appropriate direcetory on your computer!!!
 
 
 folderPath <- "Data/"
