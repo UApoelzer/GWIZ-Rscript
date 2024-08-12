@@ -34,7 +34,7 @@ for (j in 1:length(files)){
     colnames(aucout) <- c("Study", "Simulated AUC")
 }
 
-View(aucout)
+#View(aucout)
 
 
 print("Done")
