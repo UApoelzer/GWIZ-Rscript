@@ -35,8 +35,9 @@ A container will be created and your analysis will begin immediately. The contai
 
 Note the containerId of your most recent container. Use this to when copying files to your local location.
 
-``
+```
 docker cp <containerId>:/home/r-environment/GWIZ/Results_data <YOUR-LOCAL-LOCATION>
+
 docker cp <containerId>:/home/r-environment/GWIZ/Resampled_data <YOUR-LOCAL-LOCATION>
 ```
 
