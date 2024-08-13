@@ -1,6 +1,6 @@
 INSTRUCTIONS ON HOW TO RUN GWIZ.
 
-R version 3.6 is required to run GWIZ. The following R packages are also required 'XML', 'usdm', 'jsonlite','pROC','glmnet', 'mlr'.
+R version 3.6 is required to run GWIZ. The following R packages are also required 'XML', 'usdm', 'jsonlite', 'pROC', 'glmnet', 'mlr'.
 
 Go to folder “Data”
 Here there are two example csv files with GWAS data.
@@ -27,7 +27,7 @@ Once Docker is installed locally, pull the GWIZ docker image from Docker Hub to 
 
 To run your csv files of interest, note the location of your local folder. You will use the path as part of the docker command.
 
-```docker run -v <YOUR-PATH-TO-CSV-FILES>:/home/r-environment/Data gwiz```
+```docker run -v <YOUR-PATH-TO-CSV-FILES>:/home/r-environment/Data wishartlab/gwiz```
 
 A container will be created and your analysis will begin immediately. The container will stop after analysis is completed. You can copy the result folders from the container to your local machine using the following commands.
 
