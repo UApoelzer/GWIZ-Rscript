@@ -28,7 +28,7 @@ Once Docker is installed pull the GWIZ docker image from Docker Hub to your loca
 
 To run your csv files of interest, note the location of your local folder. You will use the path as part of the docker command.
 
-```docker run -v <YOUR-PATH-TO-CSV-FILES>:/home/r-environment/Data wishartlab/gwiz```
+```docker run -v <YOUR-PATH-TO-CSV-FILES>:/home/r-environment/GWIZ/Data wishartlab/gwiz```
 
 A container will be created and your analysis will begin immediately. The container will stop after analysis is completed. You can copy the result folders from the container to your local machine using the following commands.
 
