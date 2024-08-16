@@ -379,7 +379,7 @@ batchAnalysis <- function(inPath, outPath, studies, ...){
     fname <- pcName(i)
     fname <- substr(fname,1, nchar(fname)-14) # remove _resampled..
     print("-------------------------------------------------------------------")
-    print(paste("Analizing study:", fname, sep=" "))
+    print(paste("Analyzing study:", fname, sep=" "))
     print("-------------------------------------------------------------------")
     ## create a folder for this study
     dir.create(paste(outPath, fname, sep="/"))
